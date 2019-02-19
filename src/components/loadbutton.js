@@ -3,7 +3,7 @@ import { Button }from 'reactstrap';
 import './loadbutton.css';
 
 
-const LoadButton = (props) => { // (changeState, offest, results)
+const LoadButton = (props) => { 
       
             return <><Button onClick = {e => props.onClick()}>Load More</Button></>
 
